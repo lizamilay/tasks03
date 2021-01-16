@@ -1,5 +1,5 @@
 import java.util.Random;
-
+//10. Найти положительные элементы главной диагонали квадратной матрицы.
 public class Task10 {
 	public static void main(String[] args) {
 		Random rand = new Random();
@@ -7,10 +7,10 @@ public class Task10 {
 		int [][] arr = new int [n][n];
 		
 		init(arr);
-		System.out.println("�������� �������:");
+		System.out.println("Исходная матрица:");
 		print(arr);
 		
-		System.out.println("������������� �������� ������� ���������:");
+		System.out.println("Положительные элементы главной диагонали:");
 		for(int i = 0; i < arr.length; i++) {
 			if(arr[i][i] > 0) {
 			    System.out.print(arr[i][i] + "  ");
@@ -42,3 +42,4 @@ public static void print(int[][] mas) {
     	}
     }
 }
+
