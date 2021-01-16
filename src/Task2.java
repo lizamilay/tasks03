@@ -1,5 +1,5 @@
 import java.util.Random;
-
+//2. Р”Р°РЅР° РјР°С‚СЂРёС†Р°. Р’С‹РІРµСЃС‚Рё k-СЋ СЃС‚СЂРѕРєСѓ Рё p-Р№ СЃС‚РѕР»Р±РµС† РјР°С‚СЂРёС†С‹.
 public class Task2 {
 	public static void main(String[] args) {
 		int n = 10;
@@ -11,14 +11,14 @@ public class Task2 {
 		int p = rand.nextInt(m);
 		
 		init(arr);
-		System.out.println("Исходная матрица:");
+		System.out.println("РСЃС…РѕРґРЅР°СЏ РјР°С‚СЂРёС†Р°:");
 		print(arr);
 		
-		System.out.println("Нумерация строк и столбцов начинается с 0 ");
-		System.out.println(k + "-я строка:");
+		System.out.println("РќСѓРјРµСЂР°С†РёСЏ СЃС‚СЂРѕРє Рё СЃС‚РѕР»Р±С†РѕРІ РЅР°С‡РёРЅР°РµС‚СЃСЏ СЃ 0 ");
+		System.out.println(k + "-СЏ СЃС‚СЂРѕРєР°:");
 		print(arr[k]);
 		
-		System.out.println(p + "-й столбец:");
+		System.out.println(p + "-Р№ СЃС‚РѕР»Р±РµС†:");
 		for( int i=0; i < arr.length; i++) {
 			System.out.print(arr[i][p] + " ");
     	}
