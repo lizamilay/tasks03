@@ -1,5 +1,5 @@
 import java.util.Random;
-
+//9. Дан линейный массив  Получить действительную квадратную матрицу порядка n:
 public class Task9 {
 	public static void main(String[] args) {
 		Random rand = new Random();
@@ -9,7 +9,7 @@ public class Task9 {
 		double [] arr = new double [n];
 		
 		init(arr);
-		System.out.println("�������� ������:");
+		System.out.println("Исходный массив:");
 		print(arr);
 		
 		for( int i=0; i < matr.length; i++) {
@@ -17,7 +17,7 @@ public class Task9 {
     			matr[i][j] = Math.pow(arr[j],i+1);
     		}
     	}
-		System.out.println("�������� �������:");
+		System.out.println("Исходная матрица:");
 		print(matr);
 		
 		return;
