@@ -1,5 +1,5 @@
 import java.util.Random;
-
+//12. Сформировать случайную матрицу m x n, состоящую из нулей и единиц, причем в каждом столбце число единиц равно номеру столбца.
 public class Task12 {
 	public static void main(String[] args) {
 		Random rand = new Random();
@@ -8,7 +8,7 @@ public class Task12 {
 		int [][] arr = new int [m][n];
 		
 		init(arr);
-		System.out.println("�������� �������:");
+		System.out.println("Исходная матрица:");
 		print(arr);
 		
 		
@@ -44,3 +44,4 @@ public static void print(int[][] mas) {
     	}
     }
 }
+
