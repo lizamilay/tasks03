@@ -1,15 +1,15 @@
 import java.util.Random;
-
+//1. Дана квадратная матрица. Вывести на экран элементы, стоящие на диагонали.
 public class Task1 {
 	public static void main(String[] args) {
 		int n = 10;
 		int [][] arr = new int [n][n];
 		
 		init(arr);
-		System.out.println("�������� �������:");
+		System.out.println("Исходная матрица:");
 		print(arr);
 		
-		System.out.println("�������� ������� ���������:");
+		System.out.println("Элементы главной диагонали:");
 		for(int i = 0; i < arr.length; i++) {
 			System.out.print(arr[i][i] + "  ");
 		}
