@@ -1,4 +1,5 @@
 import java.util.Random;
+//5. Сформировать квадратную матрицу порядка n по заданному образцу(n - четное):
 
 public class Task5 {
 	public static void main(String[] args) {
@@ -8,7 +9,7 @@ public class Task5 {
 		int [][] arr = new int [n][n];
 		
 		init(arr);
-		System.out.println("�������� �������:");
+		System.out.println("Исходная матрица:");
 		print(arr);
 		
 		return;
@@ -38,3 +39,4 @@ public static void print(int[][] mas) {
     	}
     }
 }
+
